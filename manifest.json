@@ -1,0 +1,17 @@
+{
+  "manifestVersion": "1.0.0",
+  "id": "com.indd-processor.extract-images",
+  "name": "extract-images",
+  "version": "1.0.0",
+  "host": {
+    "app": "indesign",
+    "appVersionStrategy": "latest_version"
+  },
+  "apiEntryPoints": [
+    {
+      "type": "capability",
+      "path": "script.js",
+      "language": "extendscript"
+    }
+  ]
+}
